@@ -114,7 +114,7 @@
 						success: function (result) {
 							var data = $.parseJSON(result);
 							console.log(data);
-							document.getElementById("response").innerHTML = res;
+							document.getElementById("response").innerHTML = result;
 						}
 					});
 				}
